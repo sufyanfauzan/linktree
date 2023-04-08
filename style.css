@@ -1,0 +1,167 @@
+ @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ body {
+   background: #83a4d4;
+   background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
+   background: linear-gradient(to right, #b6fbff, #83a4d4);
+   font-family: "Montserrat", sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   min-height: 100vh;
+   margin: 0;
+ }
+
+ h2 {
+   margin: 10px 0px;
+   font-family: 'Patrick Hand', cursive;
+   font-size: 30px;
+ }
+
+ h6 {
+   margin: 5px 0px;
+   text-transform: uppercase;
+ }
+
+ p {
+   font-size: 17px;
+   line-height: 21px;
+   font-family: 'Patrick Hand', cursive;
+ }
+
+ .card-subtitle {
+   margin-top: 10px;
+   margin-bottom: 15px;
+   font-size: 20px;
+ }
+
+ .card-container {
+   background-color: transparent;
+   border-radius: 15px;
+   color: white;
+   padding-top: 10px;
+   position: relative;
+   width: 350px;
+   max-width: 100%;
+   text-align: center;
+   box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+ }
+
+ .card-container .round {
+   margin-top: 2rem;
+   border: 2px solid #2F86A6;
+   border-radius: 50%;
+   padding: 7px;
+   width: 170px;
+   height: 170px;
+ }
+
+ .buttons {
+   margin-top: 30px;
+ }
+
+ a button.primary {
+   background-color: #2F86A6;
+   color: #ffffff;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 500;
+   padding: 8px 20px;
+   cursor: pointer;
+   transition: 0.6s;
+ }
+
+ a button:hover {
+   background-color: transparent;
+   border: 1px solid #2F86A6;
+   color: #2F86A6;
+   padding: 13px 25px;
+   transition: 0.6s;
+ }
+
+ a button.primary-outline {
+   background-color: transparent;
+   color: #ffffff;
+   padding: 8px 20px;
+   border: 1px solid #2F86A6;
+   cursor: pointer;
+   transition: 0.6s;
+ }
+
+ a button.primary-outline:hover {
+   transition: 0.6s;
+   padding: 13px 25px;
+   border: 1px solid white;
+   color: #2F86A6;
+ }
+
+ .social-media ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+ }
+
+ .social-media ul li {
+   display: inline-block;
+   font-size: 25px;
+   margin: 35px 13px 0px 14px;
+   padding: 10px;
+   background-color: #2F86A6;
+   border-radius: 50%;
+   width: 47px;
+   height: 47px;
+ }
+
+ .social-media ul li a {
+   color: white;
+ }
+
+ .ico1:hover {
+   background-color: #0081C9;
+   box-shadow: 0 0 8px 1px #2F86A6;
+ }
+
+ .ico2:hover {
+   background-color: #db0cc3;
+   box-shadow: 0 0 8px 1px #2F86A6;
+ }
+
+ .ico3:hover {
+   background-color: black;
+   box-shadow: 0 0 8px 1px #2F86A6;
+ }
+
+ .skills {
+   text-align: left;
+   padding: 15px;
+   border-radius: 10px;
+   margin-top: 15px;
+ }
+
+ .skills h6 {
+   text-align: center;
+   margin-bottom: 12px;
+   font-size: 15px;
+ }
+
+ .skills ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+ }
+
+ .skills ul li {
+   border: 1px solid #2F86A6;
+   background-color: #2F86A6;
+   border-radius: 5px;
+   display: inline-block;
+   font-size: 15px;
+   margin: 5px 7px 7px 0px;
+   padding: 7px;
+ }
